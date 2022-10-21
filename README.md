@@ -1,1 +1,1 @@
-# Komercio Generic Views
+# Komercio Generic View
