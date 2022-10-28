@@ -1,0 +1,46 @@
+[
+    {
+        "model": "accounts.account", 
+        "pk": "f5ca9689-4300-49be-813d-0873459598f7", 
+        "fields": 
+        {
+            "password": "pbkdf2_sha256$390000$klQuMXlVlVrLkqL4AfZVdG$IDP9fmGGPZmzFpwqRtIXrqO2L22AXD+OwBm6Rt0YjCk=", 
+            "last_login": null, 
+            "is_superuser": false, 
+            "email": "", 
+            "is_staff": false, 
+            "is_active": true, 
+            "date_joined": "2022-10-24T21:00:07.875Z", 
+            "username": "ale", 
+            "first_name": "alexandre", 
+            "last_name": "alves", 
+            "is_seller": true, 
+            "groups": [], 
+            "user_permissions": []
+        }
+    }, 
+    {
+        "model": "products.product", 
+        "pk": "53b6f031-5ba9-4def-bc2a-9baed24250c3", 
+        "fields": 
+        {
+            "description": "Smartband XYZ 3.0", 
+            "price": 100.99, 
+            "quantity": 15, 
+            "is_active": true, 
+            "seller": "f5ca9689-4300-49be-813d-0873459598f7"
+        }
+        }, 
+        {
+            "model": "products.product", 
+            "pk": "878659c0-26d9-4c9e-98bf-602112b19f3b", 
+            "fields": 
+            {
+                "description": "Smartband Mi 8.0", 
+                "price": 100.99, 
+                "quantity": 15, 
+                "is_active": true, 
+                "seller": "f5ca9689-4300-49be-813d-0873459598f7"
+            }
+        }
+]
